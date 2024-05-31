@@ -1,0 +1,85 @@
+.sciences-container {
+    text-align: center;
+    margin: 20px;
+    height: 400px;
+    background-image: linear-gradient(rgba(95, 168, 252, 0.945), white)  ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sciences-title {
+    font-size: 2em;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.level-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.level-button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.level-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+
+/* src/pages/SciencesPage.css */
+.sciences-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.sciences-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.subject-buttons, .level-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subject-button, .level-button {
+    background-color: rgb(0, 10, 43); 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 200px;
+    margin-top: 50px;
+    align-items: normal;
+}
+
+.subject-button:hover, .level-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #051e72;
+}
+

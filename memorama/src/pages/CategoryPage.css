@@ -1,0 +1,30 @@
+*{
+    max-width: 99.5%;
+}
+
+.categories {
+    display: flex;
+    padding: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+  .category-btn {
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  .category-btn img {
+    max-width: 100%;
+    border-radius: 30px
+    
+  }
+  
+  .category-btn h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .image{
+    width: 600px;
+    height: 300px
+  }

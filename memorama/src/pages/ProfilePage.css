@@ -1,0 +1,53 @@
+.profile-container {
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 40px 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 123, 181, 0.3); 
+    max-width: 600px; 
+    margin: 50px auto; 
+    text-align: center; 
+  }
+  
+
+  .profile-data {
+    margin-bottom: 20px;
+  }
+  
+
+  .profile-data h1,
+  .profile-data h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para el botón */
+  .profile-container button {
+    background-color: #007bb5; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .profile-container button:hover {
+    background-color: #005f8a; 
+  }
+  
+
+  .profile-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .profile-feedback p {
+    margin-right: 10px;
+  }
+  
+  .profile-feedback input[type="checkbox"] {
+    transform: scale(1.5); 
+  }
